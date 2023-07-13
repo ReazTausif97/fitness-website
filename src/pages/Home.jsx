@@ -218,7 +218,7 @@ const Home = () => {
       <section className="flex px-72 py-36">
         <div>
           <div className="flex items-center">
-            <i class="cursor-pointer text-5xl fa-solid fa-circle-arrow-left "></i>
+            <i class="cursor-pointer text-4xl fa-solid fa-circle-arrow-left "></i>
             <div className="flex ">
               <div className="flex flex-col items-center">
                 <img className=" w-1/2" src={`${bellanaija}`} alt="" />
@@ -237,7 +237,7 @@ const Home = () => {
                 <img className="mt-5 w-1/2" src={`${bellanaija}`} alt="" />
               </div>
             </div>
-            <i class="cursor-pointer text-5xl fa-solid fa-circle-arrow-right "></i>
+            <i class="cursor-pointer text-4xl fa-solid fa-circle-arrow-right "></i>
           </div>
         </div>
       </section>
@@ -260,7 +260,87 @@ const Home = () => {
         </div>
       </section>
 
-      <section></section>
+      <section className="px-72 py-36">
+        <div>
+          <div className="flex justify-between items-center">
+            <h2 className="text-6xl font-bold">FROM THE BLOG</h2>
+            <button className="btn border-2 border-[#303b6d] text-[#303b6d]  rounded-none  hover:text-white hover:bg-[#5164b9] hover:border-[#5164b9]">
+              SEE ALL BLOG
+            </button>
+          </div>
+          <div className="grid grid-cols-[repeat(3,1fr)] gap-10 py-20">
+            <div className="">
+              <img
+                className="h-[500px] w-full"
+                src="https://i.ibb.co/6wJdQjV/athletic-shirtless-young-male-fitness-model-holds-dumbbell-with-light-isolated-dark-background.jpg"
+                alt=""
+              />
+              <div className="items-center mt-5 flex gap-5 text-[#303b6d] font-semibold">
+                <p>December 18, 2021</p>
+                <i class="text-xs fa-regular fa-circle"></i>
+                <p>Fitness</p>
+              </div>
+              <h2 className="font-bold mt-5 text-2xl">
+                EVERYTHING YOU NEED TO KNOW ABOUT FITNESS
+              </h2>
+
+              <button className="mt-5 text-[#303b6d]  font-bold text-sm">
+                LEARN MORE
+              </button>
+            </div>
+            <div className="">
+              <img
+                className="h-[500px] w-full "
+                src="https://i.ibb.co/x8DxV5q/alonso-reyes-0-Hl-I76m4jx-U-unsplash.jpg"
+                alt=""
+              />
+              <div className="items-center mt-5 flex gap-5 text-[#303b6d] font-semibold">
+                <p>December 18, 2021</p>
+                <i class="text-xs fa-regular fa-circle"></i>
+                <p>Fitness</p>
+              </div>
+              <h2 className="font-bold mt-5 text-2xl">
+                EVERYTHING YOU NEED TO KNOW ABOUT FITNESS
+              </h2>
+
+              <button className="mt-5 text-[#303b6d] font-bold text-sm">
+                LEARN MORE
+              </button>
+            </div>
+            <div className="">
+              <img
+                className="h-[500px] w-full"
+                src="https://i.ibb.co/41bdFt7/young-fitness-man-studio.jpg"
+                alt=""
+              />
+              <div className="items-center mt-5 flex gap-5 text-[#303b6d] font-semibold">
+                <p>December 18, 2021</p>
+                <i class="text-xs fa-regular fa-circle"></i>
+                <p>Fitness</p>
+              </div>
+              <h2 className="font-bold mt-5 text-2xl">
+                EVERYTHING YOU NEED TO KNOW ABOUT FITNESS
+              </h2>
+
+              <button className="mt-5 text-[#303b6d]  font-bold text-sm">
+                LEARN MORE
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="px-72 py-36 bg-[#05060A]">
+        <div>
+          <div className="flex justify-between text-white  items-center">
+            <h2 className="text-6xl font-bold">INSTAGRAM</h2>
+
+            <button className="btn px-10 border-none bg-[#303b6d]  rounded-none  text-white hover:bg-[#5164b9] hover:border-[#5164b9]">
+              FOLLOW INSTAGRAM
+            </button>
+          </div>
+        </div>
+      </section>
     </>
   );
 };
