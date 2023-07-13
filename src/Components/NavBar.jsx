@@ -2,9 +2,9 @@ import { NavLink } from "react-router-dom";
 const NavBar = () => {
   return (
     <>
-      <nav className="flex gap-2 px-48 py-10  items-center justify-around">
+      <nav className="flex gap-2 px-72 py-10 items-center absolute w-full top-0 justify-between">
         <div>
-          <NavLink className="font-extrabold text-2xl" to={"/"}>
+          <NavLink className="font-extrabold text-3xl" to={"/"}>
             KRON
           </NavLink>
         </div>
@@ -22,8 +22,12 @@ const NavBar = () => {
           <i class="ml-3 fa-solid fa-cart-shopping"></i>
         </div>
         <div>
-          <button className="btn rounded-none">BUY MEMBERSHIP</button>
-          <button className="ml-3  btn rounded-none">BOOK CLASS</button>
+          <button className="px-10 btn border-2 border-[#303b6d] text-[#303b6d]  rounded-none  hover:text-white hover:bg-[#5164b9] hover:border-[#5164b9]">
+            BUY MEMBERSHIP
+          </button>
+          <button className="ml-3 text-white bg-[#303b6d] hover:bg-[#5164b9] border-none btn rounded-none">
+            BOOK CLASS
+          </button>
         </div>
       </nav>
     </>
