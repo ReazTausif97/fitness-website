@@ -1,4 +1,7 @@
 import { NavLink } from "react-router-dom";
+import BtnOutline from "../Reuse/BtnOutline";
+import BtnPrimary from "../Reuse/BtnPrimary";
+
 const NavBar = () => {
   return (
     <>
@@ -22,10 +25,8 @@ const NavBar = () => {
           <i class="ml-3 fa-solid fa-cart-shopping"></i>
         </div>
         <div>
-          <button className="px-10 btn border-2 border-[#303b6d] text-[#303b6d]  rounded-none  hover:text-white hover:bg-[#5164b9] hover:border-[#5164b9]">
-            BUY MEMBERSHIP
-          </button>
-          <button className="ml-3 text-white bg-[#303b6d] hover:bg-[#5164b9] border-none btn rounded-none">
+          <BtnOutline>BUY MEMBERSHIP</BtnOutline>
+          <button className="btn ml-3 px-10 border-none bg-[#303b6d]  rounded-none  text-white hover:bg-[#5164b9] hover:border-[#5164b9]">
             BOOK CLASS
           </button>
         </div>
