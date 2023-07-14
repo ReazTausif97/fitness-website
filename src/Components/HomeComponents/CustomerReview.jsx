@@ -32,11 +32,13 @@ function CustomerReview({}) {
           <i class="text-3xl fa-solid fa-circle-arrow-left mt-10"></i>
           <i class="text-3xl ml-3 fa-solid fa-circle-arrow-right"></i>
         </div>
-        <img
-          className="w-1/4 "
-          src="https://i.ibb.co/FbN1Wrn/ludvig-wiese-d-Mf-HM-j-Hwc-unsplash.jpg"
-          alt=""
-        />
+        <div className="w-1/2">
+          <img
+            className="w-2/5"
+            src="https://i.ibb.co/FbN1Wrn/ludvig-wiese-d-Mf-HM-j-Hwc-unsplash.jpg"
+            alt=""
+          />
+        </div>
       </div>
     </section>
   );
