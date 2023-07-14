@@ -5,7 +5,7 @@ import Home from "./pages/Home";
 import Blog from "./pages/blog";
 import AboutUs from "./pages/aboutUs";
 import Contacts from "./pages/Contacts";
-import Error from "./pages/Error";
+// import Error from "./pages/Error";
 import FAQ from "./pages/FAQ";
 import Membership from "./pages/membership";
 import Team from "./pages/Team";
