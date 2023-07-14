@@ -1,4 +1,3 @@
-import banner from "../../assets/banner.png";
 import BtnPrimary from "../Reuse/BtnPrimary";
 
 const Hero = () => {
