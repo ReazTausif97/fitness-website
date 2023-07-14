@@ -1,5 +1,3 @@
-import BtnPrimary from "../Components/Reuse/BtnPrimary";
-import BtnOutline from "../Components/Reuse/BtnOutline";
 import Hero from "../Components/HomeComponents/hero";
 import AboutTrainer from "../Components/HomeComponents/AboutTrainer";
 import Classes from "../Components/HomeComponents/Classes";
