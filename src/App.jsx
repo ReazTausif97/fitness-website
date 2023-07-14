@@ -2,7 +2,7 @@ import { useState } from "react";
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
-import Blog from "./pages/Blog";
+import Blog from "./pages/blog";
 import AboutUs from "./pages/AboutUs";
 import Contacts from "./pages/Contacts";
 import Error from "./pages/Error";
