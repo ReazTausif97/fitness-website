@@ -1,8 +1,22 @@
 import SingleClass from "./SingleClass";
-import React from "react";
-import { classesDetails } from "../../Data";
+import React, { useEffect, useState } from "react";
 import BtnOutline from "../Reuse/BtnOutline";
 function Classes({}) {
+  const URL = "data/AllClass.json";
+  const [classesDetails, setClassesDetails] = useState([]);
+  useEffect(() => {
+    const getClass = async (URL) => {
+      try {
+        const resp = await fetch(URL);
+        const data = await resp.json();
+        console.log(data);
+        setClassesDetails(data);
+      } catch (error) {
+        console.log(error);
+      }
+    };
+    getClass(URL);
+  }, []);
   return (
     <section className="px-72 py-36">
       <div>

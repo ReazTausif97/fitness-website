@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "Blogtitle": "EVERYTHING YOU NEED TO KNOW ABOUT FITNESS",
+    "Image": "https://i.ibb.co/6wJdQjV/athletic-shirtless-young-male-fitness-model-holds-dumbbell-with-light-isolated-dark-background.jpg",
+    "Date": "December 12, 2023",
+    "Tag": "Fitness"
+  },
+  {
+    "id": 2,
+    "Blogtitle": "EVERYTHING YOU NEED TO KNOW ABOUT FITNESS",
+    "Image": "https://i.ibb.co/x8DxV5q/alonso-reyes-0-Hl-I76m4jx-U-unsplash.jpg",
+    "Date": "December 12, 2023",
+    "Tag": "Fitness"
+  },
+  {
+    "id": 3,
+    "Blogtitle": "EVERYTHING YOU NEED TO KNOW ABOUT FITNESS",
+    "Image": "https://i.ibb.co/41bdFt7/young-fitness-man-studio.jpg",
+    "Date": "December 12, 2023",
+    "Tag": "Fitness"
+  }
+]
