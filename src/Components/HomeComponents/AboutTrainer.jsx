@@ -1,6 +1,5 @@
 import BtnOutline from "../Reuse/BtnOutline";
 
-BtnOutline;
 const AboutTrainer = () => {
   return (
     <section className="py-36 bg-[#ced2da]">
