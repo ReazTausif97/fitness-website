@@ -38,10 +38,7 @@ function CustomerReview({}) {
               confident and healthy.
             </p>
             <div className=" flex gap-5 text-4xl mt-10">
-              <BsArrowLeftCircle
-                onMouse
-                className=" text-red-500 hover:text-[#ced2da]  hover:bg-red-500 rounded-full"
-              />
+              <BsArrowLeftCircle className=" text-red-500 hover:text-[#ced2da]  hover:bg-red-500 rounded-full" />
               <BsArrowRightCircle className=" text-red-500 hover:text-[#ced2da]  hover:bg-red-500 rounded-full" />
             </div>
           </div>
