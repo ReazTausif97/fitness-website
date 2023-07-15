@@ -1,4 +1,4 @@
-const Memmbership = () => {
-  return <div>membership</div>;
+const Membership = () => {
+  return <div>Membership</div>;
 };
-export default Memmbership;
+export default Membership;

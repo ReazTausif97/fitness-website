@@ -1,14 +1,14 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
-import Contacts from "./pages/Contacts";
 // import Error from "./pages/Error";
+import SharedLayout from "./pages/SharedLayout";
+import Blog from "./pages/Blog";
+import AboutUs from "./pages/AboutUs";
+import Shop from "./pages/Shop";
+import Contacts from "./pages/Contacts";
 import FAQ from "./pages/FAQ";
 import Membership from "./pages/Membership";
 import Team from "./pages/Team";
-import SharedLayout from "./pages/SharedLayout";
-import Shop from "./pages/Shop";
-import Blog from "./pages/Blog";
-import AboutUs from "./pages/AboutUs";
 
 function App() {
   return (
