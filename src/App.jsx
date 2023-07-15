@@ -8,6 +8,7 @@ import Contacts from "./pages/Contacts";
 import FAQ from "./pages/FAQ";
 import Membership from "./pages/Membership";
 import Team from "./pages/Team";
+// import Error from "./pages/Error";
 
 function App() {
   return (
