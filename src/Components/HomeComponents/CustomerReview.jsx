@@ -5,7 +5,7 @@ import {
   BsStarFill,
   BsStarHalf,
   BsStar,
-} from "react-icons/Bs";
+} from "react-icons/bs";
 function CustomerReview({}) {
   return (
     <section className="bg-[#ced2da]  py-36">
