@@ -10,7 +10,6 @@ const Blogs = () => {
       try {
         const resp = await fetch(URL);
         const data = await resp.json();
-        console.log(data);
         setBlogDetails(data);
       } catch (error) {
         console.log(error);
@@ -19,8 +18,8 @@ const Blogs = () => {
     getBlog(URL);
   }, []);
   return (
-    <section className="px-72 py-36">
-      <div>
+    <section className="py-36">
+      <div className="max-w-7xl mx-auto ">
         <div className="flex justify-between items-center">
           <h2 className="text-6xl font-bold">FROM THE BLOG</h2>
           <BtnOutline> SEE ALL BLOG</BtnOutline>

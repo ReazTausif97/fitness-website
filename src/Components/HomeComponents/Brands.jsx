@@ -1,11 +1,8 @@
 import React from "react";
-import bellanaija from "../../assets/bellanaija.png";
-import Betway from "../../assets/Betway.png";
-import Andela from "../../assets/Andela.svg";
 function Brands({}) {
   return (
-    <section className="flex px-72 py-36">
-      <div>
+    <section className="py-36">
+      <div className=" max-w-7xl mx-auto ">
         <div className="flex items-center">
           <i class="cursor-pointer text-4xl fa-solid fa-circle-arrow-left "></i>
           <div className="flex ">

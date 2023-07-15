@@ -9,7 +9,6 @@ function Classes({}) {
       try {
         const resp = await fetch(URL);
         const data = await resp.json();
-        console.log(data);
         setClassesDetails(data);
       } catch (error) {
         console.log(error);
@@ -18,8 +17,8 @@ function Classes({}) {
     getClass(URL);
   }, []);
   return (
-    <section className="px-72 py-36">
-      <div>
+    <section className="py-36">
+      <div className=" max-w-7xl mx-auto ">
         <div className="flex justify-between items-center">
           <h2 className="text-6xl font-bold">CLASSES</h2>
           <BtnOutline>SEE ALL CLASSES</BtnOutline>
