@@ -1,6 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
-// import Error from "./pages/Error";
 import SharedLayout from "./pages/SharedLayout";
 import Blog from "./pages/Blog";
 import AboutUs from "./pages/AboutUs";
