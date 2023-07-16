@@ -3,7 +3,7 @@ import BtnPrimary from "../Reuse/BtnPrimary";
 const Hero = () => {
   return (
     <section
-      className="bg-cover -z-20 h-[750px] w-full "
+      className="bg-cover bg-center -z-20 h-[750px] w-full "
       style={{
         backgroundImage: `url("https://i.ibb.co/SdwsMVC/banner.png")`,
       }}
