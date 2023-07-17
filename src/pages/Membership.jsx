@@ -1,3 +1,5 @@
+import Features from "../Components/MembershipComponenets/Features";
+import MembershipPricing from "../Components/MembershipComponenets/MembershipPricing";
 import { HeaderTemplate } from "../Components/Reuse/HeaderTemplate";
 
 const Membership = () => {
@@ -5,14 +7,11 @@ const Membership = () => {
     title = "Membership",
     hyperLink = "Membership";
   return (
-    <section
-      className="bg-cover bg-center "
-      style={{
-        backgroundImage: `linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)),url("https://i.ibb.co/cg7qX1f/victor-freitas-Wv-DYd-XDzkhs-unsplash-1.jpg")`,
-      }}
-    >
+    <>
       <HeaderTemplate pageName={pageName} title={title} hyperLink={hyperLink} />
-    </section>
+      <Features />
+      <MembershipPricing />
+    </>
   );
 };
 export default Membership;
