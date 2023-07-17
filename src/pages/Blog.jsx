@@ -1,24 +1,15 @@
-import { HeaderTemplate } from "../Components/Reuse/HeaderTemplate";
+import BlogContainer from "../Components/BlogComponents/BlogContainer";
+import BlogHero from "../Components/BlogComponents/BlogHero";
+import HeaderDetails from "../Components/BlogComponents/headerDetails";
+import SocialMedia from "../Components/HomeComponents/SocialMedia";
 
 const Blog = () => {
-  const pageName = "Blog",
-    title = "OUR NEWS",
-    hyperLink = "Blog";
-
   return (
     <>
-      <section
-        className="bg-cover bg-center "
-        style={{
-          backgroundImage: `linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)),url("https://i.ibb.co/cg7qX1f/victor-freitas-Wv-DYd-XDzkhs-unsplash-1.jpg")`,
-        }}
-      >
-        <HeaderTemplate
-          pageName={pageName}
-          title={title}
-          hyperLink={hyperLink}
-        />
-      </section>
+      <BlogHero />
+      <HeaderDetails />
+      <BlogContainer />
+      <SocialMedia />
     </>
   );
 };

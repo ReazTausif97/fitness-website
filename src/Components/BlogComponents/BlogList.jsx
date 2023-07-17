@@ -1,8 +1,7 @@
-import { SingleBlog } from "./SingleBlog";
-import BtnOutline from "../Reuse/BtnOutline";
 import { useEffect, useState } from "react";
+import { SingleBlog } from "../HomeComponents/SingleBlog";
 
-const Blogs = () => {
+const BlogList = () => {
   const URL = "data/AllBlog.json";
   const [blogDetails, setBlogDetails] = useState([]);
   useEffect(() => {
@@ -18,14 +17,10 @@ const Blogs = () => {
     getBlog(URL);
   }, []);
   return (
-    <section className="py-36">
+    <section>
       <div className="max-w-7xl mx-auto ">
-        <div className="flex justify-between items-center">
-          <h2 className="text-6xl font-bold">FROM THE BLOG</h2>
-          <BtnOutline> SEE ALL BLOG</BtnOutline>
-        </div>
-        <div className="grid grid-cols-[repeat(3,1fr)] gap-10 py-20">
-          {blogDetails.slice(0, 3).map((value) => (
+        <div className="grid grid-cols-[repeat(3,1fr)] gap-10 py-10">
+          {blogDetails.map((value) => (
             <SingleBlog
               Image={value.Image}
               key={value.id}
@@ -39,4 +34,4 @@ const Blogs = () => {
     </section>
   );
 };
-export default Blogs;
+export default BlogList;
