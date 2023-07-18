@@ -1,0 +1,26 @@
+[
+  {
+    "pkId": 1,
+    "packageName": "3 MONTHS MEMBERSHIP",
+    "packageDescription": "3 month membership card will give you access to all our awesome\n              amenities, spaces and group classes. There is no time limit, you\n              can come and go whenever you like.",
+    "price": 299.99
+  },
+  {
+    "pkId": 2,
+    "packageName": "10 CLASSES",
+    "packageDescription": "10 classes card will give you access to any 10 group classes. You\n              can use the card as long as you like, there is no time limit. The\n              card is rechargeable",
+    "price": 200.99
+  },
+  {
+    "pkId": 3,
+    "packageName": "SINGLE CLASS DROP-IN",
+    "packageDescription": "You can buy this 1 day pass to join any group class you wish. Ther\n              is no time limit, just choose the class you wish to attend.",
+    "price": 199.99
+  },
+  {
+    "pkId": 4,
+    "packageName": "12 MONTHS MEMBERSHIP",
+    "packageDescription": "12 month membership card will give you access to all our awesome\n              amenities, spaces and group classes. There is no time limit, you\n              can come and go whenever you like.",
+    "price": 99.99
+  }
+]

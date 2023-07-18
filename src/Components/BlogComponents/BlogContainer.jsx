@@ -2,29 +2,30 @@ import { useState } from "react";
 import BlogList from "./BlogList";
 import { FiSearch } from "react-icons/fi";
 import { BsArrowRight, BsArrowLeft } from "react-icons/bs";
-
+import Category from "./Category";
 const BlogContainer = () => {
-  const [checked, setChecked] = useState(false);
+  const [category, setCategory] = useState("ALL");
+  let categories = [
+    { name: "ALL", catId: 1 },
+    { name: "FITNESS", catId: 2 },
+    { name: "HEAVY DIET", catId: 3 },
+    { name: "TRAINING" },
+    { name: "HEAVY MIND", catId: 4 },
+  ];
+
   return (
     <section className="">
       <div className="max-w-7xl mx-auto py-32">
         <div className="flex items-center justify-between">
           <div className="join">
-            <button className="btn join-item pl-0 border-none font-bold text-base">
-              ALL
-            </button>
-            <button className="btn hover:text-black join-item border-none font-bold text-base text-[#CED2DA]">
-              FITNESS
-            </button>
-            <button className="btn hover:text-black join-item border-none font-bold text-base text-[#CED2DA]">
-              HEALTHY DIET
-            </button>
-            <button className="btn hover:text-black join-item border-none font-bold text-base text-[#CED2DA]">
-              HEALTHY MIND
-            </button>
-            <button className="btn hover:text-black join-item border-none font-bold text-base text-[#CED2DA]">
-              TRAINING
-            </button>
+            {categories.map((cat) => (
+              <Category
+                name={cat.name}
+                key={cat.catId}
+                category={category}
+                setCategory={setCategory}
+              />
+            ))}
           </div>
           <div className="join rounded-none font-semibold border border-[#CED2DA]">
             <input

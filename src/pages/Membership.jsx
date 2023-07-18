@@ -1,3 +1,5 @@
+import SocialMedia from "../Components/HomeComponents/SocialMedia";
+import BookTour from "../Components/MembershipComponenets/BookTour";
 import Features from "../Components/MembershipComponenets/Features";
 import MembershipPricing from "../Components/MembershipComponenets/MembershipPricing";
 import { HeaderTemplate } from "../Components/Reuse/HeaderTemplate";
@@ -11,6 +13,8 @@ const Membership = () => {
       <HeaderTemplate pageName={pageName} title={title} hyperLink={hyperLink} />
       <Features />
       <MembershipPricing />
+      <BookTour />
+      <SocialMedia />
     </>
   );
 };

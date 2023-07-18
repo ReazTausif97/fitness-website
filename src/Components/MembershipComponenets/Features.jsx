@@ -14,7 +14,7 @@ const Features = () => {
             <p>delivery possible.</p>
           </div>
         </div>
-        <div className="flex flex-col items-center gap-5 text-center justify-">
+        <div className="flex flex-col items-center gap-5 text-center ">
           <PiRocketLaunchDuotone className="text-7xl text-[#303B6D]" />
           <h2 className="text-2xl font-bold">NO AMOUNT LIMITATION</h2>
           <div>
@@ -23,7 +23,7 @@ const Features = () => {
             <p>delivery possible.</p>
           </div>
         </div>
-        <div className="flex flex-col items-center gap-5 text-center justify-">
+        <div className="flex flex-col items-center gap-5 text-center ">
           <LiaDumbbellSolid className="text-7xl text-[#303B6D]" />
           <h2 className="text-2xl font-bold">BEAUTIFULLY PERSONALIZED</h2>
           <div>
