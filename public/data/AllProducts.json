@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "ProductName": "SET OF ACCESSORIES",
+    "Image": "https://i.ibb.co/8N67hqQ/613-1.png",
+    "regularPrice": 29.99,
+    "discountPrice": 24.99,
+    "productBadge": []
+  },
+  {
+    "id": 2,
+    "ProductName": "SET OF ACCESSORIES",
+    "Image": "https://i.ibb.co/wz5QhrS/sveltus-speed-rope-jump-rope-2.webp",
+    "regularPrice": 39.99,
+    "discountPrice": 34.99,
+    "productBadge": []
+  },
+  {
+    "id": 3,
+    "ProductName": "SET OF ACCESSORIES",
+    "Image": "https://i.ibb.co/q01DmnL/91603-3-Sveltus-Multi-Elastiband-Black-15-kg.jpg",
+    "regularPrice": 30.99,
+    "discountPrice": 25.99,
+    "productBadge": []
+  },
+  {
+    "id": 4,
+    "ProductName": "SET OF ACCESSORIES",
+    "Image": "https://i.ibb.co/4tTPfr3/sveltus-multi-elastiband-10-kg-resistance-bands.webp",
+    "regularPrice": 29.99,
+    "discountPrice": 27.99,
+    "productBadge": []
+  },
+  {
+    "id": 5,
+    "ProductName": "SET OF ACCESSORIES",
+    "Image": "https://i.ibb.co/QPkBqRg/289691978.webp",
+    "regularPrice": 29.99,
+    "discountPrice": 28.99,
+    "productBadge": []
+  },
+  {
+    "id": 6,
+    "ProductName": "SET OF ACCESSORIES",
+    "Image": "https://i.ibb.co/MCRQKYM/8178g1-JFDn-L-AC-SX679.jpg",
+    "regularPrice": 39.99,
+    "discountPrice": 32.99,
+    "productBadge": []
+  },
+  {
+    "id": 7,
+    "ProductName": "SET OF ACCESSORIES",
+    "Image": "https://i.ibb.co/fHPsmjZ/71m-Y-LWSEy-L-AC-SL1372.jpg",
+    "regularPrice": 49.99,
+    "discountPrice": 44.99,
+    "productBadge": []
+  },
+  {
+    "id": 8,
+    "ProductName": "SET OF ACCESSORIES",
+    "Image": "https://i.ibb.co/88H8svh/91610-GY-1-Sveltus-Gymball-O65cm-Retail-Box-Grey.jpg",
+    "regularPrice": 49.99,
+    "discountPrice": 44.99,
+    "productBadge": []
+  },
+  {
+    "id": 9,
+    "ProductName": "SET OF ACCESSORIES",
+    "Image": "https://i.ibb.co/hf4St2t/sveltus-double-ab-wheel-orange-x2-org-0.jpg",
+    "regularPrice": 59.99,
+    "discountPrice": 49.99,
+    "productBadge": []
+  }
+]

@@ -22,8 +22,8 @@ const NavBar = () => {
             <NavLink to={"/Shop"}>Shop</NavLink>
           </div>
           <div>
-            <i class="fa-solid fa-user"></i>
-            <i class="ml-3 fa-solid fa-cart-shopping"></i>
+            <i className="fa-solid fa-user"></i>
+            <i className="ml-3 fa-solid fa-cart-shopping"></i>
           </div>
           <div>
             <BtnOutline>BUY MEMBERSHIP</BtnOutline>

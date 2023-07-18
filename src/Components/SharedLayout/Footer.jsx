@@ -10,25 +10,25 @@ const Footer = () => {
             <h2 className="font-extrabold text-xl">KRON</h2>
 
             <div className="flex items-center gap-2 ">
-              <i class=" text-xl fa-solid fa-phone" />
+              <i className=" text-xl fa-solid fa-phone" />
               <p>(201) 555-0124</p>
             </div>
 
             <div className="flex items-center gap-2">
-              <i class=" text-xl fa-solid fa-envelope"></i>
+              <i className=" text-xl fa-solid fa-envelope"></i>
               <p>kronfitness@gmail.com</p>
             </div>
 
             <div className="flex items-center gap-2">
-              <i class=" text-xl fa-solid fa-location-dot"></i>
+              <i className="text-xl fa-solid fa-location-dot"></i>
               <p>285 Great North Road, Grey Lynn, Aucklan 1021</p>
             </div>
             <div className="flex gap-2 text-xl">
-              <i class="cursor-pointer fa-brands fa-twitter"></i>
-              <i class="cursor-pointer fa-brands fa-facebook"></i>
-              <i class="cursor-pointer fa-brands fa-instagram"></i>
-              <i class="cursor-pointer fa-brands fa-telegram"></i>
-              <i class="cursor-pointer fa-brands fa-linkedin"></i>
+              <i className="cursor-pointer fa-brands fa-twitter"></i>
+              <i className="cursor-pointer fa-brands fa-facebook"></i>
+              <i className="cursor-pointer fa-brands fa-instagram"></i>
+              <i className="cursor-pointer fa-brands fa-telegram"></i>
+              <i className="cursor-pointer fa-brands fa-linkedin"></i>
             </div>
           </div>
           <div className="flex flex-col gap-5">

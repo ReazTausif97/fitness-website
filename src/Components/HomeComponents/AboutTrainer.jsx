@@ -15,10 +15,10 @@ const AboutTrainer = () => {
             <h1 className="mt-5 font-extrabold text-6xl">BROOKLYN SIMMONS</h1>
             <h2 className="font-bold mt-10 text-2xl">Crossfit, Box</h2>
             <div className="flex gap-2 text-2xl mt-10">
-              <i class="fa-brands fa-twitter"></i>
-              <i class="fa-brands fa-facebook"></i>
-              <i class="fa-brands fa-instagram"></i>
-              <i class="fa-brands fa-telegram"></i>
+              <i className="fa-brands fa-twitter"></i>
+              <i className="fa-brands fa-facebook"></i>
+              <i className="fa-brands fa-instagram"></i>
+              <i className="fa-brands fa-telegram"></i>
             </div>
             <h2 className="mt-10">
               Hi, My name is Teresa Lowe and I know all about healthy lifestyle.
@@ -34,19 +34,19 @@ const AboutTrainer = () => {
         </div>
         <div className="flex mt-20 justify-evenly  items-center">
           <div className="flex flex-col justify-center items-center">
-            <i class="text-6xl fa-solid text-[#303b6d] fa-award "></i>
+            <i className="text-6xl fa-solid text-[#303b6d] fa-award "></i>
             <h2 className="mt-5 text-xl font-bold">7 YEAR OF EXPERIENCE</h2>
           </div>
           <div className="flex flex-col justify-center items-center">
-            <i class="text-6xl fa-solid text-[#303b6d] fa-hand-fist"></i>
+            <i className="text-6xl fa-solid text-[#303b6d] fa-hand-fist"></i>
             <h2 className="mt-5 text-xl font-bold">RESULTS GUARANTEED</h2>
           </div>
           <div className="flex flex-col justify-center items-center">
-            <i class="text-6xl fa-solid text-[#303b6d] fa-clipboard-list "></i>
+            <i className="text-6xl fa-solid text-[#303b6d] fa-clipboard-list "></i>
             <h2 className="mt-5 text-xl font-bold">PERSONAL PROGRAM</h2>
           </div>
           <div className="flex flex-col justify-center items-center">
-            <i class="text-6xl fa-solid text-[#303b6d] fa-people-group "></i>
+            <i className="text-6xl fa-solid text-[#303b6d] fa-people-group "></i>
             <h2 className="mt-5 text-xl font-bold">GROUP LESSON</h2>
           </div>
         </div>
