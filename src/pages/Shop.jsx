@@ -1,4 +1,4 @@
-import BookTour from "../Components/MembershipComponenets/BookTour";
+import BookTour from "../Components/Reuse/BookTour";
 import { HeaderTemplate } from "../Components/Reuse/HeaderTemplate";
 import ProductContainer from "../Components/ShopComponents/ProductContainer";
 

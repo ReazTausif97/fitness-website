@@ -1,8 +1,8 @@
-import SocialMedia from "../Components/HomeComponents/SocialMedia";
-import BookTour from "../Components/MembershipComponenets/BookTour";
 import Features from "../Components/MembershipComponenets/Features";
 import MembershipPricing from "../Components/MembershipComponenets/MembershipPricing";
+import BookTour from "../Components/Reuse/BookTour";
 import { HeaderTemplate } from "../Components/Reuse/HeaderTemplate";
+import SocialMedia from "../Components/Reuse/SocialMedia";
 
 const Membership = () => {
   const pageName = "OUR",

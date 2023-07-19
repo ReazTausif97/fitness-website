@@ -1,4 +1,4 @@
-import BtnPrimary from "../Reuse/BtnPrimary";
+import BtnPrimary from "./BtnPrimary";
 
 const SocialMedia = () => {
   return (

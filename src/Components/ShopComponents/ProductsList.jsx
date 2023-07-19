@@ -15,7 +15,6 @@ const ProductsList = () => {
     };
     getProduct(URL);
   }, []);
-  console.log(productDetails);
   return (
     <div className="max-w-7xl mx-auto ">
       <div className="grid grid-cols-[repeat(3,1fr)] gap-10 py-10">

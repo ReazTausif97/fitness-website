@@ -1,5 +1,4 @@
-import BtnPrimary from "../Reuse/BtnPrimary";
-
+import BtnPrimary from "./BtnPrimary";
 const BookTour = () => {
   return (
     <section className="max-w-7xl py-32 mx-auto flex flex-col gap-6 ">
