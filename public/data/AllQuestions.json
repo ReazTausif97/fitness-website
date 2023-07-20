@@ -1,0 +1,22 @@
+[
+  {
+    "qId": 1,
+    "question": "Can I exchange my Gift Card to money?",
+    "answer": " Unfortunately, we do not offer the ability to exchange gift cards for cash. Gift cards are a form of payment, and like any other form of payment, they cannot be redeemed for cash.However you can gift it to someone else."
+  },
+  {
+    "qId": 2,
+    "question": "How much time do I have to use my Gift Card?",
+    "answer": "Gift cards issued by our gym do not expire. We know that life can get busy, and sometimes you may not have the time to use your gift card right away. We don't want you to feel rushed or pressured to use it before it expires, so we made the decision to never expire our gift cards."
+  },
+  {
+    "qId": 3,
+    "question": "Can I pay for the service with my gift card?",
+    "answer": "Yes, you can use a gift card to pay for our services. To use a gift card to pay for our services, simply bring the gift card with you to the gym and present it to the front desk staff. They will be able to scan the gift card and apply the balance to your account."
+  },
+  {
+    "qId": 4,
+    "question": "What is your cancellation policy?",
+    "answer": "You can cancel your membership at any time by giving us 30 days' notice. We will need your name, membership number, and the date you would like to cancel."
+  }
+]

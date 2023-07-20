@@ -10,7 +10,7 @@ const PackageList = ({
     <div>
       <div
         onClick={() => setShow(show === packageName ? "" : packageName)}
-        className="flex flex-col gap-4 border-b border-[#67696D] pb-5 cursor-pointer"
+        className="flex flex-col gap-4 border-b border-[#67696D] pb-7 cursor-pointer"
       >
         <h2 className="font-bold text-2xl">{packageName}</h2>
         {show === packageName && (
