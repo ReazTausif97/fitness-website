@@ -12,7 +12,7 @@ const BookTour = () => {
           BOOK TOUR
         </BtnPrimary>
         <input
-          className="w-full input input-bordered rounded-none font-semibold join-item focus:outline-none placeholder-[#303B6D] border-[#CED2DA] "
+          className="w-full text-black input input-bordered bg-white rounded-none font-semibold join-item focus:outline-none placeholder-[#303B6D] border-[#CED2DA] "
           placeholder="Enter your Email address"
         />
       </div>
