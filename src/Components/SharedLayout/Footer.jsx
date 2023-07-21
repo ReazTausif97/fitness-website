@@ -106,7 +106,7 @@ const Footer = () => {
             </div>
           </div>
           <hr className="mt-10 border-[#989BA1]" />
-          <div className="mt-5 flex justify-between">
+          <div className="mt-5 flex flex-col text-center md:text-center lg:text-center md:flex-row lg:flex-row justify-between ">
             <p>Made By Reaz</p>
             <p>Copyright © 2023 Reaz. All Rights Reserved.</p>
           </div>
