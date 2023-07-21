@@ -12,12 +12,12 @@ const Home = () => {
     <>
       <Hero />
       <AboutTrainer />
-      <Classes />
+      {/* <Classes />
       <CustomerReview />
       <Brands />
       <JoinClub />
       <Blogs />
-      <SocialMedia />
+      <SocialMedia /> */}
     </>
   );
 };
