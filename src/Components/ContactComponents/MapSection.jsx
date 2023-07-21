@@ -16,7 +16,7 @@ const MapSection = () => {
   });
 
   return (
-    <section className="w-full h-[500px]">
+    <section className="w-full">
       <div className="h-full">
         <div ref={mapContainer} className="map-container h-full" />
       </div>

@@ -30,7 +30,7 @@ const NavBar = () => {
               </label>
               <ul
                 tabIndex={0}
-                className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-white rounded-box w-52"
+                className="menu menu-sm dropdown-content mt-3 z-[20] p-2 shadow-2xl shadow-black-500/40 bg-white rounded-box w-52"
               >
                 <li>
                   <NavLink to={"/Contacts"}>Contacts</NavLink>

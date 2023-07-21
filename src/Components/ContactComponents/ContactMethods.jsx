@@ -3,7 +3,7 @@ import { TfiEmail, TfiMapAlt } from "react-icons/tfi";
 
 const ContactMethods = () => {
   return (
-    <section className="max-w-7xl mx-auto flex gap-10 items-center justify-evenly h-[400px]">
+    <section className="md:px-10 px-2 lg:px-0 lg:max-w-7xl lg:mx-auto flex lg:flex-row md:flex-row flex-col gap-10 items-center justify-evenly py-16 md:py-32 lg:py-32 ">
       <div className="flex flex-col items-center gap-5 text-center">
         <h2 className="text-2xl font-bold">TELEPHONE</h2>
         <PiPhoneCallLight className="text-7xl text-[#303B6D]" />
