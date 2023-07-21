@@ -3,14 +3,14 @@ import BtnPrimary from "./BtnPrimary";
 const SocialMedia = () => {
   return (
     <section className="py-36 bg-[#05060A]">
-      <div className=" max-w-7xl mx-auto ">
-        <div className="flex justify-between text-white  items-center">
+      <div className=" px-2 md:px-10 lg:max-w-7xl lg:mx-auto ">
+        <div className="flex flex-col gap-5 justify-between lg:flex-row md:flex-row text-white  items-center">
           <h2 className="text-6xl font-bold">INSTAGRAM</h2>
 
           <BtnPrimary>FOLLOW INSTAGRAM</BtnPrimary>
         </div>
 
-        <div className="grid grid-cols-[1fr,2fr,1fr] gap-5 py-20 ">
+        <div className="grid grid-cols-1 md:grid-cols-[2fr,3fr] lg:grid-cols-[1fr,2fr,1fr] gap-5 py-20 ">
           <div
             className="h-[500px] bg-cover bg-center"
             style={{

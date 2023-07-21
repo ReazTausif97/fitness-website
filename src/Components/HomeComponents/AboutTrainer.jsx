@@ -2,15 +2,15 @@ import BtnOutline from "../Reuse/BtnOutline";
 
 const AboutTrainer = () => {
   return (
-    <section className=" lg:py-36 bg-[#ced2da]">
-      <div className="md:px-5 lg:max-w-7xl lg:mx-auto">
-        <div className="flex-col text-center items-center md:flex md:flex-row lg:flex lg:flex-row">
+    <section className="py-5 md:py-16 lg:py-36 bg-[#ced2da]">
+      <div className="px-2 md:px-10 lg:max-w-7xl lg:mx-auto">
+        <div className="flex-col gap-5 text-center md:text-start lg:text-start md:flex md:flex-row lg:flex lg:flex-row">
           <img
-            className="md:w-1/2 lg:w-1/3"
+            className="md:w-1/2  lg:w-1/3"
             src="https://i.ibb.co/WsCBcVR/filip-mroz-C3-Qs4-Mbxe-KY-unsplash.jpg"
             alt=""
           />
-          <div className="lg:w-3/5 md:px-10 lg:px-10 py-20">
+          <div className="lg:w-3/5 py-20">
             <h3 className="font-extrabold text-3xl">ABOUT</h3>
             <h1 className="mt-5 font-extrabold text-6xl">BROOKLYN SIMMONS</h1>
             <h2 className="font-bold mt-10 text-2xl">Crossfit, Box</h2>
@@ -32,7 +32,7 @@ const AboutTrainer = () => {
             </div>
           </div>
         </div>
-        <div className=" grid grid-cols-2 gap-2 md:flex md:mt-20 md:justify-evenly lg:flex lg:mt-20 lg:justify-evenly">
+        <div className=" grid grid-cols-1 gap-2 md:flex md:mt-20 md:justify-evenly lg:flex lg:mt-20 lg:justify-evenly">
           <div className="flex flex-col  text-center">
             <i className="text-6xl fa-solid text-[#303b6d] fa-award "></i>
             <h2 className="mt-5 text-xl font-bold">7 YEAR OF EXPERIENCE</h2>

@@ -6,7 +6,7 @@ const NavBar = () => {
   return (
     <>
       <div className=" w-full py-10 absolute">
-        <div className="flex gap-2 items-center w-full justify-between lg:px-0 md:px-5 md:justify-between lg:justify-between lg:max-w-7xl lg:mx-auto">
+        <div className="flex gap-2 items-center w-full justify-between lg:px-0 px-2 md:px-10 md:justify-between lg:justify-between lg:max-w-7xl lg:mx-auto">
           <div className="flex  items-center">
             <div className="dropdown">
               <label

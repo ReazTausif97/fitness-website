@@ -8,7 +8,7 @@ const Hero = () => {
         backgroundImage: `url("https://i.ibb.co/SdwsMVC/banner.png")`,
       }}
     >
-      <div className="flex items-center h-full lg:px-0 md:px-5 lg:max-w-7xl lg:mx-auto">
+      <div className="flex items-center h-full lg:px-0 px-2 md:px-10 lg:max-w-7xl lg:mx-auto">
         <div className="text-7xl md:text-8xl lg:text-8xl font-extrabold z-10">
           <h2>KRON</h2>
           <h2 className="mt-5">FITNESS</h2>
