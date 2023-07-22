@@ -1,7 +1,7 @@
 import BtnPrimary from "./BtnPrimary";
 const BookTour = () => {
   return (
-    <section className="max-w-7xl py-32 mx-auto flex flex-col gap-6 ">
+    <section className="px-2 md:px-10 lg:max-w-7xl py-16 lg:py-32 lg:mx-auto flex flex-col gap-6 ">
       <h2 className="text-6xl font-bold">BOOK A TOUR</h2>
       <p>
         Structured powered practice that focuses on mastery of poses and

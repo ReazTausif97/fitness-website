@@ -12,7 +12,7 @@ const Contacts = () => {
       <HeaderTemplate pageName={pageName} title={title} hyperLink={hyperLink} />
       <ContactMethods />
       <MapSection />
-      {/* <ContactusSection /> */}
+      <ContactusSection />
     </>
   );
 };

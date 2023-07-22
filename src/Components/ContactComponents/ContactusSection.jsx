@@ -2,10 +2,10 @@ import BtnPrimary from "../Reuse/BtnPrimary";
 
 const ContactusSection = () => {
   return (
-    <section className="mt-10 p-32">
-      <div className="max-w-7xl mx-auto flex flex-col gap-14">
+    <section className="mt-10 py-32">
+      <div className="px-2 md:px-10 lg:px-0 lg:max-w-7xl lg:mx-auto flex flex-col gap-14">
         <h2 className="text-6xl font-bold">CONTACT US</h2>
-        <div className="flex w-full gap-10">
+        <div className="flex flex-col lg:flex-row md:flex-row w-full gap-10">
           <div className="form-control  w-full ">
             <input
               type="text"

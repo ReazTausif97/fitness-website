@@ -2,8 +2,8 @@ import BtnPrimary from "../Reuse/BtnPrimary";
 const StartJourney = () => {
   return (
     <section className="bg-[#000000] py-32">
-      <div className="max-w-7xl mx-auto flex gap-28">
-        <div className="text-white flex flex-col gap-6  justify-center">
+      <div className="px-2 md:px-10 lg:px-0 lg:max-w-7xl lg:mx-auto flex flex-col-reverse lg:flex-row md:flex-row md:gap-28 lg:gap-28 gap-16">
+        <div className="text-white flex flex-col gap-6  justify-center text-center lg:text-start md:text-start">
           <h2 className="font-bold text-2xl">HOW IT</h2>
           <h2 className="font-bold text-6xl">STARTED</h2>
           <p>
@@ -18,7 +18,7 @@ const StartJourney = () => {
           </div>
         </div>
         <img
-          className="w-3/5"
+          className=" md:w-1/2 lg:w-3/5"
           src="https://i.ibb.co/kJnxJ7L/valery-sysoev-LDAir-ERNzew-unsplash.jpg"
           alt=""
         />

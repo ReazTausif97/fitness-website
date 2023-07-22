@@ -4,7 +4,7 @@ import BtnPrimary from "../Reuse/BtnPrimary";
 const Footer = () => {
   return (
     <>
-      <footer className="bg-[#CED2DA]  py-5 md:py-16 lg:py-36">
+      {/* <footer className="bg-[#CED2DA]  py-5 md:py-16 lg:py-36">
         <div className="lg:max-w-7xl lg:mx-auto lg:px-0 px-2 md:px-10">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-[1fr,1fr,1fr,1.5fr,2fr] gap-5">
             <div className="flex flex-col gap-2 md:gap-5 lg:gap-5 items-center md:items-start lg:items-start">
@@ -111,7 +111,7 @@ const Footer = () => {
             <p>Copyright © 2023 Reaz. All Rights Reserved.</p>
           </div>
         </div>
-      </footer>
+      </footer> */}
     </>
   );
 };
