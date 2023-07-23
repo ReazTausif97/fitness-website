@@ -14,9 +14,9 @@ const ProductContainer = () => {
   ];
 
   return (
-    <section className="max-w-7xl mx-auto py-32">
-      <div className="flex justify-between">
-        <div className="join">
+    <section className="px-2 md:px-10 lg:px-2 lg:max-w-7xl lg:mx-auto py-32">
+      <div className="flex  flex-wrap items-center justify-between">
+        <div className="join flex-wrap">
           {categories.map((value) => (
             <ProductCategories
               key={value.catId}

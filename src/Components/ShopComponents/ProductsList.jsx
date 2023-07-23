@@ -16,8 +16,8 @@ const ProductsList = () => {
     getProduct(URL);
   }, []);
   return (
-    <div className="max-w-7xl mx-auto ">
-      <div className="grid grid-cols-[repeat(3,1fr)] gap-10 py-10">
+    <div className=" ">
+      <div className="grid grid-cols-[repeat(1,1fr)] md:grid-cols-[repeat(2,1fr)] lg:grid-cols-[repeat(3,1fr)] gap-10 py-10">
         {productDetails.map((value) => (
           <SingleProduct
             Image={value.Image}

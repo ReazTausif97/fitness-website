@@ -9,10 +9,7 @@ const NavBar = () => {
         <div className="flex gap-2 items-center w-full justify-between lg:px-0 px-2 md:px-10 md:justify-between lg:justify-between lg:max-w-7xl lg:mx-auto">
           <div className="flex  items-center">
             <div className="dropdown">
-              <label
-                tabIndex={0}
-                className="btn pl-0 md:pl-0 btn-ghost lg:hidden"
-              >
+              <label tabIndex={0} className="btn pl-0  btn-ghost lg:hidden">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   className="h-5 w-5"
@@ -75,9 +72,12 @@ const NavBar = () => {
             <i className="fa-solid fa-user"></i>
             <i className="ml-1 lg:ml-3 md:ml-3 fa-solid fa-cart-shopping"></i>
           </div>
-          <div className="flex">
-            <BtnOutline>BUY MEMBERSHIP</BtnOutline>
-            <button className="btn px-0  border-none bg-[#303b6d]  rounded-none  text-white hover:bg-[#5164b9] hover:border-[#5164b9]">
+          <div className="flex md:gap-2 gap-1 lg:gap-2">
+            <button className="btn px-1 text-xs lg:text-base md:text-base md:px-10 lg:px-10 border-2 border-[#303b6d] text-[#303b6d]  rounded-none  hover:text-white hover:bg-[#5164b9] hover:border-[#5164b9]">
+              BUY MEMBERSHIP
+            </button>
+            {/* <BtnOutline>BUY MEMBERSHIP</BtnOutline> */}
+            <button className="btn px-1 md:px-10 lg:px-10 text-xs lg:text-base md:text-base border-none bg-[#303b6d]  rounded-none  text-white hover:bg-[#5164b9] hover:border-[#5164b9]">
               BOOK CLASS
             </button>
           </div>
