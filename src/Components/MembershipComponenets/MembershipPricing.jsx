@@ -19,12 +19,14 @@ const MembershipPricing = () => {
   }, []);
   return (
     <section className="bg-[#CED2DA]">
-      <div className="max-w-7xl mx-auto py-32">
-        <div>
+      <div className="px-2 md:px-10 lg:px-0 lg:max-w-7xl lg:mx-auto py-16 lg:py-32">
+        <div className="flex flex-col gap-2">
           <h2 className="text-3xl font-bold">PRICING</h2>
-          <h2 className="text-6xl font-bold">CHOOSE YOUR MEMBERSHIP</h2>
+          <h2 className="text-4xl lg:text-6xl font-bold">
+            CHOOSE YOUR MEMBERSHIP
+          </h2>
         </div>
-        <div className="flex flex-col gap-7 mt-10">
+        <div className="flex flex-col gap-4 md:gap-7 lg:gap-7 mt-10 ">
           {packages.map((value) => (
             <PackageList
               key={value.pkId}

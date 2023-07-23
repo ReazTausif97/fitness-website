@@ -15,9 +15,9 @@ const BlogContainer = () => {
 
   return (
     <section className="">
-      <div className="max-w-7xl mx-auto py-32">
-        <div className="flex items-center justify-between">
-          <div className="join">
+      <div className="px-2 md:px-10 lg:px-2 lg:max-w-7xl lg:mx-auto py-32">
+        <div className="flex  flex-wrap items-center justify-between">
+          <div className="join flex-wrap">
             {categories.map((cat) => (
               <Category
                 key={cat.catId}

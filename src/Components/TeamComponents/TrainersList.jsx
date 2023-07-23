@@ -17,7 +17,7 @@ const TrainersList = () => {
     getTrainer(URL);
   }, []);
   return (
-    <div className="py-10 grid grid-cols-[repeat(4,1fr)]  gap-5">
+    <div className="py-10 grid grid-cols-[repeat(1,1fr)] md:grid-cols-[repeat(2,1fr)] lg:grid-cols-[repeat(4,1fr)]  gap-5">
       {trainerDetails.map((value) => (
         <SingleTrainer
           key={value.id}

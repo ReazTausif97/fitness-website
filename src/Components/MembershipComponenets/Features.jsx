@@ -4,7 +4,7 @@ import { PiRocketLaunchDuotone } from "react-icons/pi";
 const Features = () => {
   return (
     <section>
-      <div className="flex max-w-7xl mx-auto gap-10 items-center justify-evenly h-[400px]">
+      <div className="flex flex-wrap px-2 md:px-10 lg:px-0 lg:max-w-7xl lg:mx-auto gap-10 items-center justify-evenly py-16 lg:py-32 ">
         <div className="flex flex-col items-center gap-5 text-center">
           <LiaHandshakeSolid className="text-7xl text-[#303B6D]" />
           <h2 className="text-2xl font-bold">EASY TO GIVE</h2>
