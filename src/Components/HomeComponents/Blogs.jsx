@@ -18,7 +18,7 @@ const Blogs = () => {
     getBlog(URL);
   }, []);
   return (
-    <section className="py-36">
+    <section className="py-16 lg:py-36">
       <div className="px-2 md:px-10 lg:max-w-7xl lg:mx-auto  ">
         <div className="flex justify-between items-center">
           <h2 className="text-3xl md:text-6xl lg:text-6xl font-bold">

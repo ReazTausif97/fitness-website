@@ -2,7 +2,7 @@ import BtnPrimary from "./BtnPrimary";
 
 const SocialMedia = () => {
   return (
-    <section className="py-36 bg-[#05060A]">
+    <section className="py-16 lg:py-32 bg-[#05060A]">
       <div className=" px-2 md:px-10 lg:max-w-7xl lg:mx-auto ">
         <div className="flex flex-col gap-5 justify-between lg:flex-row md:flex-row text-white  items-center">
           <h2 className="text-6xl font-bold">INSTAGRAM</h2>

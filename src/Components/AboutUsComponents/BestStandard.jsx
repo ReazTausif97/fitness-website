@@ -5,7 +5,7 @@ import BtnPrimary from "../Reuse/BtnPrimary";
 
 const BestStandard = () => {
   return (
-    <section className="px-2 md:px-10 lg:px-0 lg:max-w-7xl lg:mx-auto py-32">
+    <section className="px-2 md:px-10 lg:px-0 lg:max-w-7xl lg:mx-auto py-16 lg:py-32">
       <div className="text-center items-center flex flex-col gap-10 ">
         <h2 className="text-6xl font-bold">THE BEST SAFETY STANDARDS</h2>
         <p className="md:w-4/5 lg:w-1/3">

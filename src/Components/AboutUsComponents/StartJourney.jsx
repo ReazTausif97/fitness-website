@@ -1,7 +1,7 @@
 import BtnPrimary from "../Reuse/BtnPrimary";
 const StartJourney = () => {
   return (
-    <section className="bg-[#000000] py-32">
+    <section className="bg-[#000000] py-16 lg:py-32">
       <div className="px-2 md:px-10 lg:px-0 lg:max-w-7xl lg:mx-auto flex flex-col-reverse lg:flex-row md:flex-row md:gap-28 lg:gap-28 gap-16">
         <div className="text-white flex flex-col gap-6  justify-center text-center lg:text-start md:text-start">
           <h2 className="font-bold text-2xl">HOW IT</h2>

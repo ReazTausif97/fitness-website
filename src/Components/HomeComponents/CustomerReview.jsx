@@ -8,7 +8,7 @@ import {
 } from "react-icons/bs";
 function CustomerReview({}) {
   return (
-    <section className="bg-[#ced2da]  py-36">
+    <section className="bg-[#ced2da]  py-16 lg:py-36">
       <div className="px-2 md:px-10 lg:max-w-7xl lg:mx-auto">
         <h2
           className="text-center md:text-start lg:text-start font-extrabold
