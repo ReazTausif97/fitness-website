@@ -45,7 +45,7 @@ function CustomerReview({}) {
           <div className="md:w-1/2 lg:w-1/2">
             <img
               className="w-full"
-              src="https://i.ibb.co/FbN1Wrn/ludvig-wiese-d-Mf-HM-j-Hwc-unsplash.jpg"
+              src="https://i.ibb.co/HPG5TkQ/ludvig-wiese-d-Mf-HM-j-Hwc-unsplash-min.jpg"
               alt=""
             />
           </div>

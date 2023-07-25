@@ -6,7 +6,7 @@ const HeaderDetails = () => {
       <div className="px-2 md:px-10 lg:px-0 lg:max-w-7xl lg:mx-auto flex lg:flex-row md:flex-row flex-col gap-10 lg:gap-20">
         <img
           className=" md:w-1/2 lg:w-1/2"
-          src="https://i.ibb.co/0BLR202/wepik-export-20230717000208-Yds-F.png"
+          src="https://i.ibb.co/tMMvmT7/wepik-export-20230717000208-Yds-F-min.png"
           alt=""
         />
         <div className="flex flex-col justify-center text-center lg:text-start md:text-start  gap-5 lg:gap-10">

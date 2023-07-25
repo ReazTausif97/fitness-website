@@ -5,7 +5,7 @@ const Hero = () => {
     <section
       className="bg-cover bg-right h-[700px] sm:bg-cover sm:bg-right lg:bg-cover lg:bg-center "
       style={{
-        backgroundImage: `linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)),url("https://i.ibb.co/SdwsMVC/banner.png")`,
+        backgroundImage: `linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)),url("https://i.ibb.co/dPXyfYt/banner-1-min.png")`,
       }}
     >
       <div className="flex items-center h-full lg:px-0 px-2 md:px-10 lg:max-w-7xl lg:mx-auto">

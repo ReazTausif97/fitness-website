@@ -15,7 +15,7 @@ const SocialMedia = () => {
             className="h-[500px] bg-cover bg-center"
             style={{
               backgroundImage:
-                'url("https://i.ibb.co/6XzNfzw/photo-1483721310020-03333e577078.jpg")',
+                'url("https://i.ibb.co/zRDnY6k/photo-1483721310020-03333e577078-min.jpg")',
             }}
           >
             {/* <img
@@ -28,7 +28,7 @@ const SocialMedia = () => {
             className="h-[500px] bg-cover bg-center"
             style={{
               backgroundImage:
-                'url("https://i.ibb.co/p1Nm6wZ/kike-vega-F2qh3yjz6-Jk-unsplash.jpg")',
+                'url("https://i.ibb.co/Kw1jSKp/kike-vega-F2qh3yjz6-Jk-unsplash-min.jpg")',
             }}
           >
             {/* <img
@@ -41,7 +41,7 @@ const SocialMedia = () => {
             className="h-[500px] bg-cover bg-center"
             style={{
               backgroundImage:
-                'url("https://i.ibb.co/rv1tkKW/71oqw-Pp-TOYL-AC-SX679.jpg")',
+                'url("https://i.ibb.co/CVBq1HJ/71oqw-Pp-TOYL-AC-SX679-min.jpg")',
             }}
           >
             {/* <img
@@ -55,7 +55,7 @@ const SocialMedia = () => {
             className="h-[500px] bg-cover bg-center"
             style={{
               backgroundImage:
-                'url("https://i.ibb.co/RSS2Xd9/madison-lavern-4gcq-Rf3-f2-I-unsplash.jpg")',
+                'url("https://i.ibb.co/wcGcdHV/madison-lavern-4gcq-Rf3-f2-I-unsplash-min.jpg")',
             }}
           >
             {/* <img
@@ -68,7 +68,7 @@ const SocialMedia = () => {
             className="h-[500px] bg-cover bg-center"
             style={{
               backgroundImage:
-                'url("https://i.ibb.co/mDQZ4v3/The-view-from-the-back-of-a-woman-meditating-in-lotus-position-980x1139.jpg")',
+                'url("https://i.ibb.co/1JpBTmf/The-view-from-the-back-of-a-woman-meditating-in-lotus-position-980x1139-min.jpg")',
             }}
           >
             {/* <img
@@ -81,7 +81,7 @@ const SocialMedia = () => {
             className="h-[500px] bg-cover bg-center"
             style={{
               backgroundImage:
-                'url("https://i.ibb.co/f0Gddsx/emily-sea-coi-WR0g-T8-Cw-unsplash.jpg")',
+                'url("https://i.ibb.co/pbqm8yc/emily-sea-coi-WR0g-T8-Cw-unsplash-min.jpg")',
             }}
           >
             {/* <img

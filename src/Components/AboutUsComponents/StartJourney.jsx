@@ -19,7 +19,7 @@ const StartJourney = () => {
         </div>
         <img
           className=" md:w-1/2 lg:w-3/5"
-          src="https://i.ibb.co/kJnxJ7L/valery-sysoev-LDAir-ERNzew-unsplash.jpg"
+          src="https://i.ibb.co/SQwbmC8/valery-sysoev-LDAir-ERNzew-unsplash-min.jpg"
           alt=""
         />
       </div>

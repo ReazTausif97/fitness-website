@@ -5,7 +5,7 @@ const JoinClub = () => {
     <section
       className=" py-20 md:py-36 lg:py-36  bg-cover"
       style={{
-        backgroundImage: `linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.3)), url("https://i.ibb.co/K7Y19tW/confident-young-muscular-caucasian-athlete-practicing-gym-with-weights-male-model-doing-strength-exe.jpg")`,
+        backgroundImage: `linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.3)), url("https://i.ibb.co/wWnz4gj/confident-young-muscular-caucasian-athlete-practicing-gym-with-weights-male-model-doing-strength-exe.jpg")`,
       }}
     >
       <div className=" flex justify-center items-center px-2 md:px-10  lg:max-w-7xl lg:mx-auto ">

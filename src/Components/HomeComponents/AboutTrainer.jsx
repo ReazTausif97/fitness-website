@@ -7,7 +7,7 @@ const AboutTrainer = () => {
         <div className="flex-col gap-5 text-center md:text-start lg:text-start md:flex md:flex-row lg:flex lg:flex-row">
           <img
             className="md:w-1/2  lg:w-1/3"
-            src="https://i.ibb.co/WsCBcVR/filip-mroz-C3-Qs4-Mbxe-KY-unsplash.jpg"
+            src="https://i.ibb.co/S5VY6Sx/filip-mroz-C3-Qs4-Mbxe-KY-unsplash-min.jpg"
             alt=""
           />
           <div className="lg:w-3/5 py-20">

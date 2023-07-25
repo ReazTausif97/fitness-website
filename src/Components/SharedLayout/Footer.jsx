@@ -54,7 +54,7 @@ const Footer = () => {
                   className="bg-cover bg-center h-[50px] w-[50px] rounded-xl"
                   style={{
                     backgroundImage:
-                      "url('https://i.ibb.co/ZKkxNnX/samuel-girven-VJ2s0c20q-Co-unsplash.jpg')",
+                      "url('https://i.ibb.co/WcYn5J5/samuel-girven-VJ2s0c20q-Co-unsplash-min.jpg')",
                   }}
                 ></div>
                 <div>
@@ -67,7 +67,7 @@ const Footer = () => {
                   className="bg-cover bg-center h-[50px] w-[50px] rounded-xl"
                   style={{
                     backgroundImage:
-                      "url('https://i.ibb.co/ZKkxNnX/samuel-girven-VJ2s0c20q-Co-unsplash.jpg')",
+                      "url('https://i.ibb.co/WcYn5J5/samuel-girven-VJ2s0c20q-Co-unsplash-min.jpg')",
                   }}
                 ></div>
                 <div>
@@ -80,7 +80,7 @@ const Footer = () => {
                   className="bg-cover bg-center h-[50px] w-[50px] rounded-xl"
                   style={{
                     backgroundImage:
-                      "url('https://i.ibb.co/ZKkxNnX/samuel-girven-VJ2s0c20q-Co-unsplash.jpg')",
+                      "url('https://i.ibb.co/WcYn5J5/samuel-girven-VJ2s0c20q-Co-unsplash-min.jpg')",
                   }}
                 ></div>
                 <div>
